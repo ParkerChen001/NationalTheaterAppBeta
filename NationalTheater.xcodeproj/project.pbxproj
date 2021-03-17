@@ -3,19 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31848B70260058490049A579 /* AVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31848B6F260058490049A579 /* AVViewController.swift */; };
+		31848B722600A9210049A579 /* AVTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31848B712600A9210049A579 /* AVTableViewController.swift */; };
+		31A1C58B25FEFC01006555E5 /* SuggestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A1C58A25FEFC01006555E5 /* SuggestViewController.swift */; };
+		31A1C58F25FF59A3006555E5 /* PrinceCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A1C58E25FF59A3006555E5 /* PrinceCollectionViewController.swift */; };
+		31A1C59325FF5C58006555E5 /* PrinceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A1C59225FF5C58006555E5 /* PrinceCollectionViewCell.swift */; };
 		31FED00D25FE46790051ECEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FED00C25FE46790051ECEC /* AppDelegate.swift */; };
 		31FED00F25FE46790051ECEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FED00E25FE46790051ECEC /* SceneDelegate.swift */; };
 		31FED01125FE46790051ECEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FED01025FE46790051ECEC /* ViewController.swift */; };
 		31FED01425FE46790051ECEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31FED01225FE46790051ECEC /* Main.storyboard */; };
 		31FED01625FE467B0051ECEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31FED01525FE467B0051ECEC /* Assets.xcassets */; };
 		31FED01925FE467B0051ECEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31FED01725FE467B0051ECEC /* LaunchScreen.storyboard */; };
+		54A1FCBFBE583088FF28F138 /* Pods_NationalTheater.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E2F9A78A1B9E0134BCD1B2 /* Pods_NationalTheater.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BB8BFEA1B65DAA3DF0692E9 /* Pods-NationalTheater.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NationalTheater.debug.xcconfig"; path = "Target Support Files/Pods-NationalTheater/Pods-NationalTheater.debug.xcconfig"; sourceTree = "<group>"; };
+		31848B6F260058490049A579 /* AVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVViewController.swift; sourceTree = "<group>"; };
+		31848B712600A9210049A579 /* AVTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVTableViewController.swift; sourceTree = "<group>"; };
+		31A1C58A25FEFC01006555E5 /* SuggestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestViewController.swift; sourceTree = "<group>"; };
+		31A1C58E25FF59A3006555E5 /* PrinceCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinceCollectionViewController.swift; sourceTree = "<group>"; };
+		31A1C59225FF5C58006555E5 /* PrinceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinceCollectionViewCell.swift; sourceTree = "<group>"; };
 		31FED00925FE46790051ECEC /* NationalTheater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NationalTheater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31FED00C25FE46790051ECEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31FED00E25FE46790051ECEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,8 @@
 		31FED01525FE467B0051ECEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31FED01825FE467B0051ECEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31FED01A25FE467B0051ECEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34E2F9A78A1B9E0134BCD1B2 /* Pods_NationalTheater.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NationalTheater.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		779D913B18301197996089EB /* Pods-NationalTheater.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NationalTheater.release.xcconfig"; path = "Target Support Files/Pods-NationalTheater/Pods-NationalTheater.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54A1FCBFBE583088FF28F138 /* Pods_NationalTheater.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				31FED00B25FE46790051ECEC /* NationalTheater */,
 				31FED00A25FE46790051ECEC /* Products */,
+				F8DEA7FE46F71B9F699086D6 /* Pods */,
+				72CED2F7D3DB7E81391EC424 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +76,34 @@
 				31FED00C25FE46790051ECEC /* AppDelegate.swift */,
 				31FED00E25FE46790051ECEC /* SceneDelegate.swift */,
 				31FED01025FE46790051ECEC /* ViewController.swift */,
+				31A1C58A25FEFC01006555E5 /* SuggestViewController.swift */,
+				31A1C58E25FF59A3006555E5 /* PrinceCollectionViewController.swift */,
+				31A1C59225FF5C58006555E5 /* PrinceCollectionViewCell.swift */,
+				31848B712600A9210049A579 /* AVTableViewController.swift */,
+				31848B6F260058490049A579 /* AVViewController.swift */,
 				31FED01225FE46790051ECEC /* Main.storyboard */,
 				31FED01525FE467B0051ECEC /* Assets.xcassets */,
 				31FED01725FE467B0051ECEC /* LaunchScreen.storyboard */,
 				31FED01A25FE467B0051ECEC /* Info.plist */,
 			);
 			path = NationalTheater;
+			sourceTree = "<group>";
+		};
+		72CED2F7D3DB7E81391EC424 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34E2F9A78A1B9E0134BCD1B2 /* Pods_NationalTheater.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8DEA7FE46F71B9F699086D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BB8BFEA1B65DAA3DF0692E9 /* Pods-NationalTheater.debug.xcconfig */,
+				779D913B18301197996089EB /* Pods-NationalTheater.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31FED01D25FE467B0051ECEC /* Build configuration list for PBXNativeTarget "NationalTheater" */;
 			buildPhases = (
+				9258BAE9858A88B78B76652F /* [CP] Check Pods Manifest.lock */,
 				31FED00525FE46790051ECEC /* Sources */,
 				31FED00625FE46790051ECEC /* Frameworks */,
 				31FED00725FE46790051ECEC /* Resources */,
+				0741BA1C4DEF5AD7BC930B15 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +173,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0741BA1C4DEF5AD7BC930B15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NationalTheater/Pods-NationalTheater-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NationalTheater/Pods-NationalTheater-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NationalTheater/Pods-NationalTheater-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9258BAE9858A88B78B76652F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NationalTheater-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		31FED00525FE46790051ECEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -139,7 +222,12 @@
 			files = (
 				31FED01125FE46790051ECEC /* ViewController.swift in Sources */,
 				31FED00D25FE46790051ECEC /* AppDelegate.swift in Sources */,
+				31A1C58F25FF59A3006555E5 /* PrinceCollectionViewController.swift in Sources */,
+				31A1C59325FF5C58006555E5 /* PrinceCollectionViewCell.swift in Sources */,
+				31848B722600A9210049A579 /* AVTableViewController.swift in Sources */,
+				31848B70260058490049A579 /* AVViewController.swift in Sources */,
 				31FED00F25FE46790051ECEC /* SceneDelegate.swift in Sources */,
+				31A1C58B25FEFC01006555E5 /* SuggestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +371,7 @@
 		};
 		31FED01E25FE467B0051ECEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BB8BFEA1B65DAA3DF0692E9 /* Pods-NationalTheater.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +390,7 @@
 		};
 		31FED01F25FE467B0051ECEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 779D913B18301197996089EB /* Pods-NationalTheater.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
